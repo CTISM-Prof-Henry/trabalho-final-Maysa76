@@ -1,0 +1,92 @@
+/* Layout Geral do Catálogo */
+.container-catalogo {
+    display: flex;
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 0 20px;
+    gap: 30px;
+}
+
+/* Barra Lateral de Filtros */
+.filtros {
+    width: 250px;
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    height: fit-content;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.filtros h3 {
+    margin-bottom: 20px;
+    color: #2c3e50;
+    border-bottom: 2px solid #e67e22;
+    padding-bottom: 5px;
+}
+
+.grupo-filtro {
+    margin-bottom: 25px;
+}
+
+.grupo-filtro h4 {
+    margin-bottom: 10px;
+    color: #333;
+    font-size: 1rem;
+}
+
+.grupo-filtro label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 0.9rem;
+    color: #555;
+    cursor: pointer;
+}
+
+/* Área de Produtos */
+.conteudo-catalogo {
+    flex: 1;
+}
+
+.topo-catalogo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+.topo-catalogo h2 {
+    color: #2c3e50;
+}
+
+/* Ajustes finos nos Cards de Produtos */
+.product-card {
+    position: relative; /* Para segurar as tags/badges */
+}
+
+.badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: #e67e22;
+    color: #fff;
+    padding: 4px 8px;
+    font-size: 0.75rem;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+.badge.novidade {
+    background: #27ae60;
+}
+
+/* Responsividade para Celulares */
+@media (max-width: 768px) {
+    .container-catalogo {
+        flex-direction: column;
+    }
+    .filtros {
+        width: 100%;
+    }
+}
