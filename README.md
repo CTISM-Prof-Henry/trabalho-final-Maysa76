@@ -12,11 +12,11 @@ O projeto deve ser publicado no **GitHub Pages** e apresentado em aula para o pr
 
 ## 📌 Checklist
 
-* [ ] meu site tem pelo menos um arquivo do tipo `.html` 
+* [x] meu site tem pelo menos um arquivo do tipo `.html` 
 * [ ] estou usando CSS externo, em um arquivo separado `.css`
 * [ ] estou usando Javascript externo, em um arquivo separado `.js`
-* [ ] os arquivos do meu site estão na pasta `site`
-* [ ] a pasta `site` tem um arquivo `index.html`, que é a página inicial do meu site; sem esse arquivo, o GitHub Pages 
+* [x] os arquivos do meu site estão na pasta `site`
+* [x] a pasta `site` tem um arquivo `index.html`, que é a página inicial do meu site; sem esse arquivo, o GitHub Pages 
       não vai funcionar
 * [ ] estou ciente que, se eu modificar ou excluir arquivos que não estejam na pasta `site` 
       (por exemplo, `.github` ou `README.md`), isso pode afetar o funcionamento do meu site
@@ -40,7 +40,7 @@ Se você utilizou uma IA, marque a caixa abaixo e preencha os campos:
 
 * **IA utilizada:**
 * **Forma de utilização da IA:**
-  * [ ] fiz perguntas pontuais à IA, mas eu programei o código do meu site
+  * [x] fiz perguntas pontuais à IA, mas eu programei o código do meu site
   * [ ] dei um prompt para a IA, ela me deu um código e eu colei o código nos arquivos do meu site
 
 ## 🧩 Componentes HTML utilizados
@@ -51,30 +51,30 @@ Marque com `[x]` os elementos que **foram implementados no seu site**. Você nã
 
 #### Estrutura básica
 
-- [ ] `<!DOCTYPE html>`
-- [ ] `<html>`
-- [ ] `<head>`
-- [ ] `<title>`
-- [ ] `<body>`
+- [x] `<!DOCTYPE html>`
+- [x] `<html>`
+- [x] `<head>`
+- [x] `<title>`
+- [x] `<body>`
 
 #### Estrutura semântica
 
-- [ ] `<header>`
-- [ ] `<nav>`
-- [ ] `<main>`
-- [ ] `<section>`
+- [x] `<header>`
+- [x] `<nav>`
+- [x] `<main>`
+- [x] `<section>`
 - [ ] `<article>`
 - [ ] `<aside>`
 - [ ] `<footer>`
 
 #### Conteúdo
 
-- [ ] Títulos (`h1`, `h2`, `h3`, etc.)
-- [ ] Parágrafos (`p`)
-- [ ] Imagens (`img`)
-- [ ] Links (`a`)
-- [ ] Listas:
-  - [ ] `ul`
+- [x] Títulos (`h1`, `h2`, `h3`, etc.)
+- [x] Parágrafos (`p`)
+- [x] Imagens (`img`)
+- [x] Links (`a`)
+- [x] Listas:
+  - [x] `ul`
   - [ ] `ol`
 
 #### Formulários
@@ -88,25 +88,25 @@ Marque com `[x]` os elementos que **foram implementados no seu site**. Você nã
 ### 🎨 CSS
 
 - Seletor de...
-  - [ ] Classes (`.classe`)
+  - [x] Classes (`.classe`)
   - [ ] IDs (`#id`)
-  - [ ] pseudoclasse (`#a::hover`)
-- [ ] Cores
-- [ ] Tipografia (e.g. `font-family`)
-- [ ] Margem e padding
-- [ ] Layout com `flexbox`
+  - [x] pseudoclasse (`#a::hover`)
+- [x] Cores
+- [x] Tipografia (e.g. `font-family`)
+- [x] Margem e padding
+- [x] Layout com `flexbox`
 - [ ] Layout com `grid`
 - [ ] Responsividade (`media queries`)
-- [ ] Animações ou transições
+- [x] Animações ou transições
 
 ## ⚙️ JavaScript
 
-- [ ] Manipulação do DOM
-- [ ] Eventos (`click`, `submit`, etc.)
+- [x] Manipulação do DOM
+- [x] Eventos (`click`, `submit`, etc.)
 - [ ] Validação de formulário
-- [ ] Alteração dinâmica de conteúdo
-- [ ] Uso de funções
-- [ ] Uso de arrays ou objetos
+- [x] Alteração dinâmica de conteúdo
+- [x] Uso de funções
+- [x] Uso de arrays ou objetos
 - [ ] Uso de `fetch` ou API externa
 - [ ] local Storage
 
@@ -142,4 +142,6 @@ Utilize este espaço para comentar:
 
 - dificuldades encontradas
 - decisões de design
+  Já avia uma ideia mais ou menos por cima, realizei o que foi possivel dentro disso.
 - melhorias que podem ser feitas no futuro
+  Vão ser feitas mais paginas para mais exposições de nosvos produtos e com seus respectivos valores. 
