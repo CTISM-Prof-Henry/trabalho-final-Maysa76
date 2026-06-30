@@ -141,7 +141,8 @@ site/
 Utilize este espaço para comentar:
 
 - dificuldades encontradas
-- decisões de design
+- decisões de design.
+  
   Já avia uma ideia mais ou menos por cima, realizei o que foi possivel dentro disso.
-- melhorias que podem ser feitas no futuro
+- melhorias que podem ser feitas no futuro.
   Vão ser feitas mais paginas para mais exposições de nosvos produtos e com seus respectivos valores. 
