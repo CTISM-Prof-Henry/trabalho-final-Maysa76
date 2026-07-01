@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: radial-gradient(circle #d6d0ff);
+    font-family: sans-serif;
+
+    .maim-wrapper {
+        padding-top: 140px;
+    }
+
+    header {
+        #navbar {
+            background: #ffffff;
+            border-radius: 24px;
+            padding: 20px 4%;
+            box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
+            padding: 24px 4%;
+
+            position: fixed;
+            width: 92%;
+            left: 50%;
+            top: 24px;
+            transform: translateX(-50%);
+
+
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 1000;
+
+            .logo {
+                width: 150px;
+                height: auto;
+            }
+
+            #nav-list {
+                display: flex;
+                gap: 24px;
+                list-style: none;
+
+
+                .nav-item {
+                    .nav-link {
+                        text-decoration: none;
+                        font-size: 1.15rem;
+                        color: #020617;
+                        font-weight: 400;
+
+                        &.active {
+                            border-bottom: 3px solid #d6d0ff;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+body {
+
+    .page-title {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 210px 1px 40px 1px;
+
+        .page-title h2 {
+            font-size: 1rem;
+            font-weight: bold;
+            line-height: 1rem;
+            color: rgb(255 255 0 / 0.86);
+        }
+
+        .page-title h1 {
+            font-size: 3rem;
+            font-weight: 600;
+            line-height: 3rem;
+            color: #ffffff;
+
+        }
+
+        p {
+            font-size: 1rem;
+            font-weight: 400;
+            color: #d6d0ff;
+            margin-top: 8px;
+            max-height: 65%;
+            text-align: center;
+        }
+    }
+
+    #main_container {
+
+        background-color: #d6d0ff;
+        border-radius: 32px 32px 0px 0px;
+        padding: 32px;
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        max-width: 1200px;
+        width: 90%;
+    }
+}
