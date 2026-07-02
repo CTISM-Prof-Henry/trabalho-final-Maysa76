@@ -89,14 +89,14 @@ Marque com `[x]` os elementos que **foram implementados no seu site**. Você nã
 
 - Seletor de...
   - [x] Classes (`.classe`)
-  - [ ] IDs (`#id`)
+  - [x] IDs (`#id`)
   - [x] pseudoclasse (`#a::hover`)
 - [x] Cores
 - [x] Tipografia (e.g. `font-family`)
 - [x] Margem e padding
 - [x] Layout com `flexbox`
 - [ ] Layout com `grid`
-- [ ] Responsividade (`media queries`)
+- [x] Responsividade (`media queries`)
 - [x] Animações ou transições
 
 ## ⚙️ JavaScript
